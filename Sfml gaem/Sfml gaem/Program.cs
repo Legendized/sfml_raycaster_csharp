@@ -8,7 +8,7 @@ using SFML.System;
 using SFML.Window;
 using SFML.Audio;
 
-namespace SFML.Net_Test //todo: make interpolate suck dick cock ass
+namespace SFML.Net_Test //todo: make interpolate between rays so that we can get more than 2000 fps which is essential for gaming
 {
     class Program
     {
