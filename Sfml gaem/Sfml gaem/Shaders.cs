@@ -13,7 +13,7 @@ namespace SFML.Net_Test
         {
             float fog = (distToCam * fogThickness);
             fog = MathF.Abs(fog);
-            if ((fog) >= 240) fog = 255;
+            if ((fog) >= 240) fog = 250;
             float diffuse = MathF.Abs(MathF.Sin(normal/MathF.PI));
             float rfog = fog * (MainColor.R / 255);
             float gfog = fog * (MainColor.G / 255);
