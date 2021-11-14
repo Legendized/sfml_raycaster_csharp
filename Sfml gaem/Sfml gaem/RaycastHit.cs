@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using SFML.System;
 
+#nullable enable
+
 namespace SFML.Net_Test
 {
     public class RaycastHit
